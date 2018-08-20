@@ -6,8 +6,8 @@ const client = new Discord.Client();
 
 client.on("guildMemberAdd", member => {
     member.createDM().then(function (author) {
-    return author.send(' ** حرام واحد جميل مثلك م يكون عندنا .. تنورنا  ** https://discord.gg/WPfWcaT' )
-  
+return author.send(' ** تسمح لنا نخطفك شوي :hearts: :innocent: ** \n https://discord.gg/bzjuptE' )
+        
   }).catch(console.error)
   })
   
