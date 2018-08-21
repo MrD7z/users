@@ -2,7 +2,10 @@ const Discord = require('discord.js');
 const fs = require("fs")
 const client = new Discord.Client();
 
-
+client.on('ready', () => {
+   console.log(`i am ready ${client.user.username}`);
+    client.user.setStatus("idle")
+});
 
 const text =
 [
